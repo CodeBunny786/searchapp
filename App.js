@@ -7,11 +7,9 @@ import { renderIf } from "./utilities/CommonMethods";
 import Styles from "./Styles";
 import { customAlert } from "./utilities/CommonMethods";
 import CheckBox from 'react-native-check-box'
-/**
- * @author Vaibhav Padalia
- * @description This is the first screen that loads when the app starts. This screen shows the list of movies
- * according to the search query.
- */
+
+
+
 class MainScreen extends Component {
   static navigationOptions = {
     headerTitle: Constants.Strings.MAIN_TITLE
@@ -87,14 +85,6 @@ class MainScreen extends Component {
     })
 
   }
-
-
-
-  // setValue = (val) => {
-
-  //   Alert.alert(val)
-
-  // }
   render() {
     return (
       <View style={{ flex: 1 }}>
